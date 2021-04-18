@@ -1,7 +1,7 @@
 # AutoClick 📱
 파이썬용 오토클릭 라이브러리입니다.
 
-* https://pypi.org/project/AutoClick/
+* https://pypi.org/project/auto-click/
 - https://github.com/cord0318/python_auto_click
 
 # 다운로드 📥
