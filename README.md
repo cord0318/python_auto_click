@@ -2,7 +2,7 @@
 파이썬용 오토클릭 라이브러리입니다.
 
 * https://pypi.org/project/AutoClick/
-- https://github.com/cord0318/python_autoclick
+- https://github.com/cord0318/python_auto_click
 
 # 다운로드 📥
 **이 모듈은 파이썬 모든 버젼에서 사용 가능합니다.**
