@@ -8,7 +8,7 @@
 **이 모듈은 파이썬 모든 버젼에서 사용 가능합니다.**
 윈도우나 리눅스에서 다음과 같이 입력합니다.
 ```
-pip install autoclick
+pip install auto-click
 ```
 오류가 나는 경우, python -m pip install --upgrade pip 로 pip를 업데이트 해주세요.
 
