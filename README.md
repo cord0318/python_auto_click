@@ -14,30 +14,19 @@ pip install auto-click
 
 # 사용법 🤖
 ```python
-from auto import AutoClick
-from pynput.mouse import Button, Controller
-from pynput.keyboard import Listener, KeyCode
-
-click_thread = AutoClick(0.05, Button.right)
-click_thread.start()
-
-def on_press(key):
-    print(key)
-    if key == KeyCode(char='1'):
-        click_thread.start_clicker()
-        print("AutoMouse Start!")
-    elif key == KeyCode(char='2'):
-        click_thread.stop_clicker()
-        print("AutoMouse Stop!")
-    elif key == KeyCode(char='3'):
-        click_thread.exit()
-        print("AutoMouse Exit!")
-        listener.stop()
-
-
-with Listener(on_press=on_press) as listener:
-    listener.join()
+from autoclick import AutoClick
+AutoClick(right_key="<ctrl>+v", left_key="<ctrl>+x", delay=0.03)
+# Default Value: right_key="v", left_key="x", delay=0.04
 ```
 
+# Update
+기능을 더 쉽게 만들었습니다.
+cmd 명령어 기능을 만들었습니다.
+
+
 # Tip
-**최대 cps는 78입니다!**
+**이제 오토클릭을 cmd에서 사용가능합니다!**
+```cmd
+auto --help
+```
+를 쳐서 사용가능합니다!
