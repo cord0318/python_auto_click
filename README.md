@@ -19,11 +19,6 @@ AutoClick(right_key="<ctrl>+v", left_key="<ctrl>+x", delay=0.03)
 # Default Value: right_key="v", left_key="x", delay=0.04
 ```
 
-# Update
-기능을 더 쉽게 만들었습니다.
-cmd 명령어 기능을 만들었습니다.
-
-
 # Tip
 **이제 오토클릭을 cmd에서 사용가능합니다!**
 ```cmd
